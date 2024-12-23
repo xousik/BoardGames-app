@@ -1,0 +1,67 @@
+main {
+  text-align: center;
+  padding-top: 15rem;
+}
+
+form {
+  margin-top: 5rem;
+}
+
+input {
+  display: block;
+  margin: 0 auto;
+  padding: 0 1rem;
+  margin-bottom: 2.5rem;
+  width: 28rem;
+  height: 5rem;
+  border: 1px solid black;
+  border-radius: 0.8rem;
+  background-color: #ffff;
+  font-size: 1.8rem;
+
+  &::placeholder {
+    color: #e3e3e3;
+    font-size: 1.8rem;
+  }
+}
+
+.buttons-wrapper {
+  width: 28rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  width: 9rem;
+  height: 4rem;
+  border: none;
+  border-radius: 0.8rem;
+  background-color: transparent;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.register-button {
+  color: #1e1e1e;
+  a {
+    text-decoration: none;
+    color: #2c2c2c;
+  }
+}
+
+.signin-button {
+  color: #1e1e1e;
+  background-color: #d9d9d9;
+}
+
+hr {
+  margin: 3.5rem auto;
+  width: 28rem;
+}
+
+span {
+  display: block;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
